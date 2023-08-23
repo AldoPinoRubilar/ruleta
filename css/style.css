@@ -1,0 +1,18 @@
+/* Estilos para el primer div */
+.div-red {
+   background-color: red;
+}
+
+/* Estilos para el segundo div */
+.div-green {
+   background-color: green;
+}
+
+/* Otros estilos */
+.text-black {
+   color: black;
+}
+
+h2 {
+   display: inline;
+}

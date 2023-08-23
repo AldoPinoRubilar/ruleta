@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <title>Ruleta</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <center>
+      <div class="div-red">
+         <h1>La ruleta</h1>
+      </div>
+
+      <div class="div-green">
+         <br>
+         <img src="https://www.gifss.com/economia/juego/images/ruleta-03.gif" width="200"><br>
+         <h2>Has apostado por el:</h2>
+         <h2 class="text-black" id="apostado"></h2><br>
+         <h2>El número ganador es:</h2>
+         <h2 id="random"></h2><br>
+         <h2 id="premio"></h2><br>
+         <h2 id="acertado"></h2><br>
+         <input type="number" name="apuesta" id="apuesta" size="2" style="background-color: green;"><br>
+         <h4 id="mensaje"></h4>
+         <input type="button" name="" id="btn" value="apostar" onclick="validarYAzar()">
+      </div>
+   </center>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
